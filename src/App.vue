@@ -1,11 +1,12 @@
 <template>
   <headerP/>
-  <nav>
+  <nav class="menu">
     <router-link to="/">Inicio</router-link> |
     <router-link to="/conocenos">Conocenos</router-link> |
-    <router-link to="/autismo">Autismo</router-link> |
-    <router-link to="/ayudanos">Ayudanos</router-link> |
+    <router-link to="/servicios">Servicios</router-link> |
     <router-link to="/citasyadmiciones">Citas y Admiciones</router-link> |
+    <router-link to="/autismo">Autismo</router-link> |
+    <router-link to="/ayudanos">Ayudanos</router-link> |    
     <router-link to="/contacto">Contacto</router-link> |
     <router-link to="/tienda">Tienda</router-link>
   </nav>
@@ -42,10 +43,12 @@ nav {
 
 nav a {
   font-weight: bold;
+  font-size: 30px;
   color: #2c3e50;
 }
 
 nav a.router-link-exact-active {
   color: #42b983;
+  font-size: 40px;
 }
 </style>

@@ -24,7 +24,42 @@
         </div>
         <div class="col">
           <h3>VISITA NUESTRAS REDES SOCIALES</h3>
-          <i class="bi bi-facebook"></i>
+          <img
+            src="@/assets/iconos/facebook.png"
+            class="img-fluid"
+            alt="..."
+            width="15%"
+            height="15px"
+          />
+          <img
+            src="@/assets/iconos/instagram.png"
+            class="img-fluid"
+            alt="..."
+            width="15%"
+            height="15px"
+          />
+          <img
+            src="@/assets/iconos/tiktok.png"
+            class="img-fluid"
+            alt="..."
+            width="15%"
+            height="15px"
+          />
+          <img
+            src="@/assets/iconos/twitter.png"
+            class="img-fluid"
+            alt="..."
+            width="15%"
+            height="15px"
+          />
+          <img
+            src="@/assets/iconos/whatsapp.png"
+            class="img-fluid"
+            alt="..."
+            width="15%"
+            height="15px"
+          />
+
         </div>
       </div>
     </div>
