@@ -6,7 +6,7 @@
     
     <br>
     <br>
-
+ 
     <div class="titulo">
       <h1> Citas y admisiones </h1>
     </div>

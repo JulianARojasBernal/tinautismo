@@ -3,7 +3,7 @@
     <div class="row">
       <div class="row">
         <h1> ¿QUIÉNES SOMOS? </h1>
-        
+         
         <div class="col">
           <img alt="Vue logo" src="../assets/maquetacionimgcuadrada.jpg">
         </div>
