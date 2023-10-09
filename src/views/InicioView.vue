@@ -18,12 +18,14 @@
           <img alt="Vue logo" src="../assets/maquetacionimgcuadrada.jpg">
         </div>
         <div class="col">
-          <p class="fs-2">"Sed ut perspiciatis unde omnis iste natus  error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+          <p class="fs-3">Somos una asociación civil que atiende a niños, niñas y adolescentes con Trastorno del Espectro Autista (TEA) mediante terapias grupales e individuales, brindando así atención especializada. <br>
+            Apoya a niños, niñas y jóvenes con autismo para que puedan integrarse al medio social, familiar y escolar con el objetivo de mejorar su calidad de vida.
           </p>
         </div>
       </div>
     </div>
-
+<br>
+<br>
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">

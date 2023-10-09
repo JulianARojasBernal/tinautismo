@@ -8,7 +8,10 @@
           <img alt="Vue logo" src="../assets/maquetacionimgcuadrada.jpg">
         </div>
         <div class="col">
-          <p class="fs-2">"Sed ut perspiciatis unde omnis iste natus  error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+          <p class="fs-3">
+            Nuestro movimiento inició en el año 2011 con la misión de transformar la vida de nuestro hijos y otros niños y adolescentes dentro del trastorno del espectro autista, teniendo un mismo enfoque en ayudar de la mejor manera posible y con una atención de calidad dentro de un programa integral, con metodologías únicas en su especie para tratar este padecimiento.
+
+            Finalmente el 30 de mayo del 2013 firmamos nuestros estatutos ante notario público y tres meses después fuimos reconocidos por la dependencia IJAS como una asociación sin fines de lucro y de asistencia social. Y así se cumplió nuestro sueño; el 6 de Noviembre 2013 abrimos el primer centro de Terapia Integral para Niños con Autismo ubicado en la calle Sierra Nevada #1551, Colonia Independencia, Guadalajara, Jalisco.
           </p>
         </div>
       </div>
@@ -16,7 +19,8 @@
       <br>
       
       <div class="col">
-        <p class="fs-2">"Sed ut perspiciatis unde omnis iste natus  error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+        <p class="fs-3">
+          Somos una Asociación Civil que atiende a niños niñas y adolescentes con Trastorno del Espectro Autista (TEA), mediante terapias grupales e individuales, brindando así atención especializada. Apoya a los individuos para que estos puedan desarrollarse e integrarse en el medio social, familiar y escolar con el motivo de mejorar su calidad de vida. 
         </p>
       </div>
     </div>
@@ -30,24 +34,27 @@
         <img src="../assets/maquetacionimgcuadrada.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">MISION</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <p class="card-text">
+            Somos un centro de educación temprana que busca brindar un servicio de atención integral con calidad y calidez para niños y adolescentes con trastorno del espectro autista, de tal manera que puedan integrarse y desarrollarse lo más adecuadamente posible a su medio social, escolar y familiar. Siendo nuestro compromiso apoyar a las familias, así como concientizar y promover los derechos de las personas con autismo.
+          </p>
         </div>
       </div>
       <div class="card">
         <img src="../assets/maquetacionimgcuadrada.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">VISION</h5>
-          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <p class="card-text">
+            Promover soluciones a niños, niñas y jóvenes con Trastorno del Espectro del Autismo, así como sus familias, hacerlas posibles a través de la concienciación, aceptación, promoción y apoyo de la sociedad hacia las personas con autismo. Avanzar e innovar en tratamientos terapéuticos para mejorar las afecciones relacionadas al diagnóstico. Ser un centro con calidad en sus servicios y personal con calidez humana. Posicionarnos como una institución de prestigio en Jalisco.
+          </p>
         </div>
       </div>
       <div class="card">
         <img src="../assets/maquetacionimgcuadrada.jpg" class="card-img-top" alt="...">
         <div class="card-body">
         <h5 class="card-title">VALORES</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <p class="card-text">
+          This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+        </p>
       </div>
     </div>
   </div>
