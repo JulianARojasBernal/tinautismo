@@ -3,7 +3,7 @@
     <div class="row">
       <div class="row">
         <div class="home">
-          <img alt="Vue logo" src="../assets/maquetacionbanber.jpg" />
+          <img alt="Vue logo" src="../assets/ser/banner-servicio.jpg" />
           <br />
           <br />
           <br />
@@ -35,7 +35,7 @@
     <div class="card-group">
       <div class="card">
         <img
-          src="../assets/maquetacionimgcuadrada.jpg"
+          src="../assets/ser/1.jpg"
           class="card-img-top"
           alt="..."
         />
@@ -54,7 +54,7 @@
 
       <div class="card">
         <img
-          src="../assets/maquetacionimgcuadrada.jpg"
+          src="../assets/ser/2.jpg"
           class="card-img-top"
           alt="..."
         />
@@ -74,7 +74,7 @@
 
       <div class="card">
         <img
-          src="../assets/maquetacionimgcuadrada.jpg"
+          src="../assets/ser/3.jpg"
           class="card-img-top"
           alt="..."
         />
@@ -96,7 +96,7 @@
           <div class="card-group">
             <div class="card">
               <img
-                src="../assets/maquetacionimgcuadrada.jpg"
+                src="../assets/ser/4.jpg"
                 class="card-img-top"
                 alt="..."
               />
@@ -117,7 +117,7 @@
 
             <div class="card">
               <img
-                src="../assets/maquetacionimgcuadrada.jpg"
+                src="../assets/ser/5.jpg"
                 class="card-img-top"
                 alt="..."
               />
@@ -135,7 +135,7 @@
 
             <div class="card">
               <img
-                src="../assets/maquetacionimgcuadrada.jpg"
+                src="../assets/ser/6.jpg"
                 class="card-img-top"
                 alt="..."
               />
@@ -158,7 +158,7 @@
                 <div class="card-group">
                   <div class="card">
                     <img
-                      src="../assets/maquetacionimgcuadrada.jpg"
+                      src="../assets/ser/7.jpg"
                       class="card-img-top"
                       alt="..."
                     />
@@ -185,7 +185,7 @@
 
                   <div class="card">
                     <img
-                      src="../assets/maquetacionimgcuadrada.jpg"
+                      src="../assets/ser/8.jpg"
                       class="card-img-top"
                       alt="..."
                     />
@@ -207,7 +207,7 @@
 
                   <div class="card">
                     <img
-                      src="../assets/maquetacionimgcuadrada.jpg"
+                      src="../assets/ser/9.jpg"
                       class="card-img-top"
                       alt="..."
                     />
@@ -248,7 +248,7 @@
   <div class="container text-center">
     <div class="row">
       <div class="col">
-        <img alt="Vue logo" src="../assets/maquetacionimgcuadrada.jpg" />
+        <img alt="Vue logo" src="../assets/ser/terapia.jpg" />
       </div>
       <div class="col">
         <p class="fs-2">

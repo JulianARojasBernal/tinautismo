@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="home">
-      <img alt="Vue logo" src="../assets/maquetacionbanber.jpg" />
+      <img alt="Vue logo" src="../assets/autismo/tina1.jpg" />
     </div>
     <br />
     <br />
@@ -41,7 +41,7 @@
   <div class="container text-center">
     <div class="row">
       <div class="col">
-        <img alt="Vue logo" src="../assets/maquetacionimgcuadrada.jpg" />
+        <img alt="Vue logo" src="../assets/autismo/signos.svg" />
       </div>
       <div class="col">
         <p class="fs-4">

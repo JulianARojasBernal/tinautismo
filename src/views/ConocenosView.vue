@@ -5,10 +5,10 @@
         <h1> ¿QUIÉNES SOMOS? </h1>
          
         <div class="col">
-          <img alt="Vue logo" src="../assets/maquetacionimgcuadrada.jpg">
+          <img alt="Vue logo" src="../assets/conoc/conocenos.jpg">
         </div>
         <div class="col">
-          <p class="fs-3">
+          <p class="fs-4">
             Nuestro movimiento inició en el año 2011 con la misión de transformar la vida de nuestro hijos y otros niños y adolescentes dentro del trastorno del espectro autista, teniendo un mismo enfoque en ayudar de la mejor manera posible y con una atención de calidad dentro de un programa integral, con metodologías únicas en su especie para tratar este padecimiento.
 
             Finalmente el 30 de mayo del 2013 firmamos nuestros estatutos ante notario público y tres meses después fuimos reconocidos por la dependencia IJAS como una asociación sin fines de lucro y de asistencia social. Y así se cumplió nuestro sueño; el 6 de Noviembre 2013 abrimos el primer centro de Terapia Integral para Niños con Autismo ubicado en la calle Sierra Nevada #1551, Colonia Independencia, Guadalajara, Jalisco.
@@ -19,7 +19,7 @@
       <br>
       
       <div class="col">
-        <p class="fs-3">
+        <p class="fs-4">
           Somos una Asociación Civil que atiende a niños niñas y adolescentes con Trastorno del Espectro Autista (TEA), mediante terapias grupales e individuales, brindando así atención especializada. Apoya a los individuos para que estos puedan desarrollarse e integrarse en el medio social, familiar y escolar con el motivo de mejorar su calidad de vida. 
         </p>
       </div>
@@ -31,7 +31,7 @@
     
     <div class="card-group">
       <div class="card">
-        <img src="../assets/maquetacionimgcuadrada.jpg" class="card-img-top" alt="...">
+        <img src="../assets/conoc/MISION.svg" class="card" width="50%" alt="...">
         <div class="card-body">
           <h5 class="card-title">MISION</h5>
           <p class="card-text">
@@ -40,7 +40,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="../assets/maquetacionimgcuadrada.jpg" class="card-img-top" alt="...">
+        <img src="../assets/conoc/VISION.svg" class="card" width="50%" alt="...">
         <div class="card-body">
           <h5 class="card-title">VISION</h5>
           <p class="card-text">
@@ -49,7 +49,7 @@
         </div>
       </div>
       <div class="card">
-        <img src="../assets/maquetacionimgcuadrada.jpg" class="card-img-top" alt="...">
+        <img src="../assets/conoc/VALORES.svg" class="card" width="50%" alt="...">
         <div class="card-body">
         <h5 class="card-title">VALORES</h5>
         <p class="card-text">

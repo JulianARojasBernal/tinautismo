@@ -1,12 +1,5 @@
 <template>
   <div class="container">
-    <div class="home">
-      <img alt="Vue logo" src="../assets/maquetacionbanber.jpg" />
-    </div>
-
-    <br />
-    <br />
-
     <div class="titulo">
       <h1>Citas y admisiones</h1>
     </div>
@@ -17,12 +10,12 @@
     <div class="container text-center">
       <div class="row">
         <div class="col">
-          <img alt="Vue logo" src="../assets/maquetacionimgcuadrada.jpg" />
+          <img alt="Vue logo" src="../assets/citas/registro.jpg" />
         </div>
         <div class="col">
           
           <form>
-            <fieldset disabled>
+            <fieldset>
               <legend>FORMULARIO</legend>
               <div class="mb-3">
                 <label for="axampleTextInput" class="form-label">NOMBRE COMPLETO</label>
@@ -47,12 +40,12 @@
               <div class="mb-3">
                 <legend>¿CUENTA CON FORMULARIO?</legend>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
+                  <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
                   <label class="form-check-label" for="disabledFieldsetCheck">
                     SI
                   </label>
                   <div class="form-check"></div>
-                  <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
+                  <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
                   <label class="form-check-label" for="disabledFieldsetCheck">
                     NO
                   </label>
@@ -79,7 +72,7 @@
     <div class="container text-center">
       <div class="row">
         <div class="col">
-          <p class="fs-2">
+          <p class="fs-5">
             Contacto con el área de evaluación y diagnóstico, para solicitar una cita de primera vez. <br>
             Contar con el informe psicopedagógico del área de evaluación y diagnostico. <br>
             Acreditación de término del taller PINSA (tres módulos de un mes cada uno). <br>
@@ -88,7 +81,7 @@
           </p>
         </div>
         <div class="col">
-          <img alt="Vue logo" src="../assets/maquetacionimgcuadrada.jpg" />
+          <img alt="Vue logo" src="../assets/citas/proceso.jpg" />
         </div>
       </div>
     </div>
