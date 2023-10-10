@@ -1,7 +1,8 @@
 <template>
 
-<div>
+<div class="haed">
     <img alt="Tina logo" src="@/assets/logo/log-tina.png">
+
 </div>
 
 </template>
@@ -11,4 +12,3 @@
     name: 'headerP'
   };
   </script>
-  
