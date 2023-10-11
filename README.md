@@ -5,6 +5,11 @@
 npm install
 ```
 
+## API REST setup
+```
+npm install axion
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
