@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="titulo">
-      <h1>Citas y admisiones</h1>
+      <h1>CITAS Y ADMISIONES</h1>
     </div>
 
     <br />

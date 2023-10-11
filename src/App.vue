@@ -4,7 +4,7 @@
     <router-link to="/">Inicio</router-link> |
     <router-link to="/conocenos">Conócenos</router-link> |
     <router-link to="/servicios">Servicios</router-link> |
-    <router-link to="/citasyadmiciones">Citas y Admiciones</router-link> |
+    <router-link to="/citasyadmiciones">Citas y Admisiones</router-link> |
     <router-link to="/autismo">Autismo</router-link> |
     <router-link to="/ayudanos">Ayúdanos</router-link> |    
     <router-link to="/contacto">Contacto</router-link> |
