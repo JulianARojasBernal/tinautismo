@@ -93,16 +93,16 @@
   <div class="container text-center">
     <div class="row row-cols-2">
       <div class="col">
-        <img alt="Vue logo" src="../assets/ini/campañas.jpg" />
+        <img alt="" src="../assets/ini/camp.jpg" />
       </div>
       <div class="col">
-        <img alt="Vue logo" src="../assets/ini/campañas1.jpg" />
+        <img alt="" src="../assets/ini/camp1.jpg" />
       </div>
       <div class="col">
-        <img alt="Vue logo" src="../assets/ini/campañas3.jpg" />
+        <img alt="" src="../assets/ini/camp3.jpg" />
       </div>
       <div class="col">
-        <img alt="Vue logo" src="../assets/ini/campañas4.jpg" />
+        <img alt="" src="../assets/ini/camp4.jpg" />
       </div>
     </div>
   </div>
