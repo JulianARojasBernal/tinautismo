@@ -24,27 +24,35 @@
         </div>
         <div class="col">
           <h3>VISITA NUESTRAS REDES SOCIALES</h3>
-          <img
+          
+          <a href="https://www.facebook.com/tinautismo" target="_blank">
+            <img
             src="@/assets/iconos/facebook.png"
             class="img-fluid"
             alt="..."
             width="15%"
             height="15px"
-          />
-          <img
+            /> 
+          </a>
+          <a href="https://www.instagram.com/tina.autismo/" target="_blank">
+            <img
             src="@/assets/iconos/instagram.png"
             class="img-fluid"
             alt="..."
             width="15%"
             height="15px"
-          />
-          <img
+            />
+          </a>
+          <a href="https://www.tiktok.com/@tinautismo" target="_blank">
+            <img
             src="@/assets/iconos/tiktok.png"
             class="img-fluid"
             alt="..."
             width="15%"
             height="15px"
-          />
+            />
+          </a>
+          <a href="https://twitter.com/TinaAutismo" target="_blank">
           <img
             src="@/assets/iconos/twitter.png"
             class="img-fluid"
@@ -52,6 +60,8 @@
             width="15%"
             height="15px"
           />
+          </a>
+          <a href="https://wa.me/+5213331425757" target="_blank">
           <img
             src="@/assets/iconos/whatsapp.png"
             class="img-fluid"
@@ -59,7 +69,7 @@
             width="15%"
             height="15px"
           />
-
+          </a>
         </div>
       </div>
     </div>
