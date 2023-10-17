@@ -8,9 +8,8 @@
       <h1>TERAPIA INTEGRAL PARA NIÑOS CON AUTISMO</h1>
     </div>
 
-    <BR></BR>
-
-    <BR></BR>
+    <br>
+    <br>
 
     <div class="container text-center">
       <div class="row row align-items-start">

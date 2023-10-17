@@ -33,6 +33,9 @@
     "not ie 11"
   ],
   "jest": {
-    "preset": "@vue/cli-plugin-unit-jest"
+    "preset": "@vue/cli-plugin-unit-jest",
+    "moduleNameMapper": {
+      "^@/(.*)$": "C:/Users/dypri/Desktop/tinautismo/src/$1"
+    }
   }
 }
