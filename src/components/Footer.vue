@@ -12,15 +12,15 @@
         </div>
         <div class="col">
           <h3>UBICACION</h3>
-          <p>
+          <h5>
             Calzada Independencia Norte #1412 , Col.Independencia Oriente,
             Guadalajara, Jalisco
-          </p>
+          </h5>
   
-          <p>
+          <h5>
             Tel.: 33-3651-6953 Lun a Vie 9am a 6 pm contacto@tinautismo.com.mx
             Envíanos un e-mai!
-          </p>
+          </h5>
         </div>
         <div class="col">
           <h3>VISITA NUESTRAS REDES SOCIALES</h3>
