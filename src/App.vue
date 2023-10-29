@@ -38,17 +38,20 @@ export default {
 }
 
 nav {
-  padding: 30px;
+  padding: 10px;
+  background-color: rgb(127, 197, 255);
 }
 
 nav a {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 2
+  0px;
   color: #2c3e50;
+  
 }
 
 nav a.router-link-exact-active {
   color: #2f00ff;
-  font-size: 40px;
+  font-size: 30px;
 }
 </style>
