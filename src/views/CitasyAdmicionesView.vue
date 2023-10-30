@@ -14,7 +14,7 @@
         </div>
         <div class="col">
           
-          <form>
+          <form :action="mailtoUrl" method="post">
             <fieldset>
               <legend>FORMULARIO</legend>
               <div class="mb-3">
@@ -90,4 +90,34 @@
   <br />
   <br />
 </template>
-  
+
+<script>
+export default {
+  data() {
+    return {
+      formData: {
+        nombreCompleto: "",
+        telefono: "",
+        nombrePaciente: "",
+        edad: "",
+        tieneFormulario: false,
+      },
+    };
+  },
+  computed: {
+    mailtoUrl() {
+      const { nombreCompleto, telefono, nombrePaciente, edad, tieneFormulario } = this.formData;
+      const subject = 'Nuevo formulario enviado';
+      const body = `
+        Nombre Completo: ${nombreCompleto}
+        Teléfono: ${telefono}
+        Nombre del Paciente: ${nombrePaciente}
+        Edad: ${edad}
+        Cuenta con formulario: ${tieneFormulario ? 'Sí' : 'No'}
+      `;
+
+      return `mailto:admin@tinautismo.lat?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    },
+  },
+};
+</script>
