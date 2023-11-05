@@ -49,7 +49,9 @@
             y capacidades. Los objetivos de las actividades se adaptan según su
             edad, intereses y capacidades
           </p>
+          <button @click="mostrarPopup">Ver detalles</button>
         </div>
+        <popup-info v-if="mostrarPopupInfo" :servicio="servicioSeleccionado" @cerrar-popup="cerrarPopup" />
       </div>
 
       <div class="card">
@@ -69,7 +71,9 @@
             aprender y desarrollar las habilidades que necesitan para funcionar
             con éxito en el mundo como adultos.
           </p>
+          <button @click="mostrarPopup">Ver detalles</button>
         </div>
+        <popup-info v-if="mostrarPopupInfo" :servicio="servicioSeleccionado" @cerrar-popup="cerrarPopup" />
       </div>
 
       <div class="card">
@@ -88,7 +92,9 @@
             comunicación al ponerse a su nivel de desarrollo, y a partir de ahí
             fortalecer sus habilidades.
           </p>
+          <button @click="mostrarPopup">Ver detalles</button>
         </div>
+        <popup-info v-if="mostrarPopupInfo" :servicio="servicioSeleccionado" @cerrar-popup="cerrarPopup" />
       </div>
 
       <div class="container">
@@ -112,7 +118,9 @@
                   la integración de la información sensorial que reciben,
                   ayudando en sus aprendizajes y su relación con el entorno.
                 </p>
-              </div>
+                <button @click="mostrarPopup">Ver detalles</button>
+             </div>
+                <popup-info v-if="mostrarPopupInfo" :servicio="servicioSeleccionado" @cerrar-popup="cerrarPopup" />
             </div>
 
             <div class="card">
@@ -130,7 +138,9 @@
                   a su desarrollo personal y aumenten su felicidad y calidad de
                   vida.
                 </p>
-              </div>
+                <button @click="mostrarPopup">Ver detalles</button>
+        </div>
+        <popup-info v-if="mostrarPopupInfo" :servicio="servicioSeleccionado" @cerrar-popup="cerrarPopup" />
             </div>
 
             <div class="card">
@@ -150,7 +160,9 @@
                   que se busca sistemas alternativos para desarrollar esta
                   habilidad dentro del modelo terapéutico.
                 </p>
-              </div>
+                <button @click="mostrarPopup">Ver detalles</button>
+        </div>
+        <popup-info v-if="mostrarPopupInfo" :servicio="servicioSeleccionado" @cerrar-popup="cerrarPopup" />
             </div>
 
             <div class="container">
@@ -175,12 +187,9 @@
                         ejercicios de equilibrio, comunicación gestual y física
                         entre otros.
                       </p>
-                      <p class="card-text">
-                        <small class="text-muted"
-                          >Last updated 3 mins ago</small
-                        >
-                      </p>
-                    </div>
+                      <button @click="mostrarPopup">Ver detalles</button>
+                      </div>
+                      <popup-info v-if="mostrarPopupInfo" :servicio="servicioSeleccionado" @cerrar-popup="cerrarPopup" />
                   </div>
 
                   <div class="card">
@@ -202,7 +211,9 @@
                         desarrolle personalmente y socialmente de una forma
                         adecuada.
                       </p>
-                    </div>
+                      <button @click="mostrarPopup">Ver detalles</button>
+        </div>
+        <popup-info v-if="mostrarPopupInfo" :servicio="servicioSeleccionado" @cerrar-popup="cerrarPopup" />
                   </div>
 
                   <div class="card">
@@ -224,7 +235,9 @@
                         nuestras terapias de intervención esta forma parte de
                         nuestro catálogo de intervención de mayor relevancia.
                       </p>
-                    </div>
+                      <button @click="mostrarPopup">Ver detalles</button>
+        </div>
+        <popup-info v-if="mostrarPopupInfo" :servicio="servicioSeleccionado" @cerrar-popup="cerrarPopup" />
                   </div>
                 </div>
               </div>
@@ -289,4 +302,30 @@
     </div>
   </div>
 </template>
-  
+
+<script>
+import PopupInfo from './PopupInfo.vue';
+
+export default {
+  data() {
+    return {
+      mostrarPopupInfo: false,
+      servicioSeleccionado: {
+        titulo: 'TERAPIA TERAPIAS',
+        informacionComplementaria: 'Todas nuestras terapias estan implementadas dentro de nuestro plan de atención a los niños con Autismo, el costo de la Inscripción del paciente es de $1,500MXN, la mensualidad consta de $500 MXN, contamos con un plan de desarrollo de 3 a 10 años. para saber el nivel en el cual se encuentra su niño favor de llenar el formulario que se encuentra en la sección de "CITAS Y ADMISIONES"',
+      }
+    };
+  },
+  components: {
+    PopupInfo,
+  },
+  methods: {
+    mostrarPopup() {
+      this.mostrarPopupInfo = true;
+    },
+    cerrarPopup() {
+      this.mostrarPopupInfo = false;
+    }
+  },
+};
+</script>
