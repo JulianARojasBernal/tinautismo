@@ -65,6 +65,11 @@
                 <input type="text" id="disabledTextInput" class="form-control" placeholder="Numero Teléfonico">
               </div>
               <div> 
+              <div class="mb-3">
+                <label for="email" class="form-label">CORREO ELECTRONICO</label>
+                <input type="email" id="email" class="form-control" placeholder="Correo Electrónico"/>
+              </div>
+              
                 <legend>
                   AREAS DE APOYO
                 </legend>

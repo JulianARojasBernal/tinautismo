@@ -27,6 +27,10 @@
                 <input type="text" id="disabledTextInput" class="form-control" placeholder="Numero Teléfonico">
               </div>
 
+              <div class="mb-3"> <label for="email" class="form-label">CORREO ELECTRONICO</label>
+                <input type="email" id="email" class="form-control" placeholder="Correo Electrónico"/>
+              </div>
+
               <div class="mb-3">
                 <label for="formGroupExampleInput" class="form-label">NOMBRE DEL PACIENTE</label>
                 <input type="text" id="disabledTextInput" class="form-control" placeholder="Nombre completo del Niño">
