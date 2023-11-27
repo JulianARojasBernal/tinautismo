@@ -14,31 +14,31 @@
         </div>
         <div class="col">
           
-          <form :action="mailtoUrl" method="post">
+          <form   action="https://formspree.io/f/mayggjle" method="POST">
             <fieldset>
               <legend>FORMULARIO</legend>
               <div class="mb-3">
-                <label for="axampleTextInput" class="form-label">NOMBRE COMPLETO</label>
+                <label name="Nombre" for="axampleTextInput" class="form-label">NOMBRE COMPLETO</label>
                 <input type="text" id="disabledTextInput" class="form-control" placeholder="Del Padre o tutor">
               </div>
 
               <div class="mb-3">
                 <label for="enableTextInput" class="form-label">TELEFONO Y/O WHATSAPP</label>
-                <input type="text" id="disabledTextInput" class="form-control" placeholder="Numero Teléfonico">
+                <input name="Telefono" type="text" id="disabledTextInput" class="form-control" placeholder="Numero Teléfonico">
               </div>
 
               <div class="mb-3"> <label for="email" class="form-label">CORREO ELECTRONICO</label>
-                <input type="email" id="email" class="form-control" placeholder="Correo Electrónico"/>
+                <input name="email" type="email" id="email" class="form-control" placeholder="Correo Electrónico"/>
               </div>
 
               <div class="mb-3">
                 <label for="formGroupExampleInput" class="form-label">NOMBRE DEL PACIENTE</label>
-                <input type="text" id="disabledTextInput" class="form-control" placeholder="Nombre completo del Niño">
+                <input name="NombrePaciente" type="text" id="disabledTextInput" class="form-control" placeholder="Nombre completo del Niño">
               </div>
 
               <div class="mb-3">
                 <label for="disabledTextInput" class="form-label">EDAD</label>
-                <input type="text" id="disabledTextInput" class="form-control" placeholder="Edad del Niño">
+                <input name="Edad" type="text" id="disabledTextInput" class="form-control" placeholder="Edad del Niño">
               </div>
 
               <div class="mb-3">
@@ -49,8 +49,8 @@
                     SI
                   </label>
                   <div class="form-check"></div>
-                  <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
-                  <label class="form-check-label" for="disabledFieldsetCheck">
+                  <input name="Si" class="form-check-input" type="checkbox" id="disabledFieldsetCheck">
+                  <label name="No" class="form-check-label" for="disabledFieldsetCheck">
                     NO
                   </label>
 
@@ -96,32 +96,21 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      formData: {
-        nombreCompleto: "",
-        telefono: "",
-        nombrePaciente: "",
-        edad: "",
-        tieneFormulario: false,
-      },
-    };
-  },
-  computed: {
-    mailtoUrl() {
-      const { nombreCompleto, telefono, nombrePaciente, edad, tieneFormulario } = this.formData;
-      const subject = 'Nuevo formulario enviado';
-      const body = `
-        Nombre Completo: ${nombreCompleto}
-        Teléfono: ${telefono}
-        Nombre del Paciente: ${nombrePaciente}
-        Edad: ${edad}
-        Cuenta con formulario: ${tieneFormulario ? 'Sí' : 'No'}
-      `;
+  const $form = document.querySelector('#form')
 
-      return `mailto:admin@tinautismo.lat?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    },
-  },
-};
+async function handleSumbit(event){
+event.preventDefault() 
+const form = new FormData(this)
+const response = await fetch(this.action, {
+  method: this.method,
+  body: form,
+  headers: {
+    'Accept': 'application/json'
+  }
+} )
+if (response.ok){
+  this.reset()
+  alert('Gracias por tu mensaje, te contactaremos a la brevedad')
+}
+}
 </script>

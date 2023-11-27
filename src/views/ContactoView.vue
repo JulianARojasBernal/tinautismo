@@ -18,42 +18,24 @@
   <div class="container text-center">
     <div class="row">
       <div class="col">
-        <form :action="mailtoUrl" method="get">
+        
+        <form   action="https://formspree.io/f/mdorrzla"
+        method="POST"  >
           <fieldset>
             <legend>FORMULARIO</legend>
             <div class="mb-3">
-              <label for="axampleTextInput" class="form-label"
-                >NOMBRE COMPLETO</label
-              >
-              <input
-                type="text"
-                id="disabledTextInput"
-                class="form-control"
-                placeholder="Del Padre o tutor"
-              />
+              <label for="name" class="form-label"> NOMBRE COMPLETO </label>
+              <input name="nombre" id="nombre" class="form-control" placeholder="Del Padre o tutor"/>
             </div>
 
             <div class="mb-3">
-              <label for="enableTextInput" class="form-label"
-                >TELEFONO Y/O WHATSAPP</label
-              >
-              <input
-                type="text"
-                id="disabledTextInput"
-                class="form-control"
-                placeholder="Numero Teléfonico"
-              />
+              <label for="enableTextInput" class="form-label">TELEFONO Y/O WHATSAPP</label>
+              <input name="telefono" type="text" id="telefono" class="form-control" placeholder="Numero Teléfonico"/>
             </div>
+
             <div class="mb-3">
-              <label for="email" class="form-label"
-                >CORREO ELECTRONICO</label
-              >
-              <input
-                type="email"
-                id="email"
-                class="form-control"
-                placeholder="Correo Electrónico"
-              />
+              <label for="email" class="form-label">CORREO ELECTRONICO</label>
+              <input name="email" id="email" class="form-control" placeholder="Correo Electrónico"/>
             </div>
             <div>
               <legend>AREAS DE APOYO</legend>
@@ -64,15 +46,11 @@
               <option value="3">Servicio Social</option>
               <option value="3">Otro</option>
             </select>
+
             <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label"
-                >COMENTARIO O MENSAJE</label
-              >
-              <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
-                rows="3"
-              ></textarea>
+              <label for="comentario" class="form-label">COMENTARIO O MENSAJE</label>
+              <textarea name="mensaje"   class="form-control" id="message" rows="3">
+              </textarea>
             </div>
             <br />
             <br />
@@ -98,29 +76,22 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      formData: {
-        nombreCompleto: "",
-        telefono: "",
-        areaDeApoyo: "Voluntariado",
-        comentario: "",
-      },
-    };
-  },
-  computed: {
-    mailtoUrl() {
-      const { nombreCompleto, telefono, areaDeApoyo, comentario } = this.formData;
-      const subject = 'Nuevo formulario de contacto';
-      const body = `Nombre Completo: ${nombreCompleto}%0A` +
-                   `Teléfono/WhatsApp: ${telefono}%0A` +
-                   `Área de Apoyo: ${areaDeApoyo}%0A` +
-                   `Comentario o Mensaje:%0A${comentario}`;
+  const $form = document.querySelector('#form')
 
-      return `mailto:admin@tinautismo.lat?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    },
-  },
-};
+    async function handleSumbit(event){
+    event.preventDefault() 
+    const form = new FormData(this)
+    const response = await fetch(this.action, {
+      method: this.method,
+      body: form,
+      headers: {
+        'Accept': 'application/json'
+      }
+    } )
+    if (response.ok){
+      this.reset()
+      alert('Gracias por tu mensaje, te contactaremos a la brevedad')
+    }
+  }
 </script>
   

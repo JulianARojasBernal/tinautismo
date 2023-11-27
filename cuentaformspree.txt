@@ -1,0 +1,3 @@
+usuario 
+admin@tinautismo.lat
+pass: T1n4Aut1sm0$$

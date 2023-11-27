@@ -52,22 +52,23 @@
           <img alt="Vue logo" src="../assets/ayudanos/voluntarios.png" />
         </div>
         <div class="col">
-          <form>
+
+          <form   action="https://formspree.io/f/xleyynon" method="POST">
             <fieldset >
               <legend>FORMULARIO</legend>
               <div class="mb-3">
                 <label for="axampleTextInput" class="form-label">NOMBRE COMPLETO</label>
-                <input type="text" id="disabledTextInput" class="form-control" placeholder="Del Padre o tutor">
+                <input name="Nombre" type="text" id="disabledTextInput" class="form-control" placeholder="Del Padre o tutor">
               </div>
 
               <div class="mb-3">
                 <label for="enableTextInput" class="form-label">TELEFONO Y/O WHATSAPP</label>
-                <input type="text" id="disabledTextInput" class="form-control" placeholder="Numero Teléfonico">
+                <input name="Telefono" type="text" id="disabledTextInput" class="form-control" placeholder="Numero Teléfonico">
               </div>
               <div> 
               <div class="mb-3">
                 <label for="email" class="form-label">CORREO ELECTRONICO</label>
-                <input type="email" id="email" class="form-control" placeholder="Correo Electrónico"/>
+                <input name="Correo" type="email" id="email" class="form-control" placeholder="Correo Electrónico"/>
               </div>
               
                 <legend>
@@ -81,7 +82,7 @@
                 <option value="3">Otro</option>
               </select>
               <div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label">COMENTARIO O MENSAJE</label>
+  <label name="areas" for="exampleFormControlTextarea1" class="form-label">COMENTARIO O MENSAJE</label>
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 </div>
               <br>
@@ -98,4 +99,24 @@
   <br />
   <br />
 </template>
+
+<script>
+  const $form = document.querySelector('#form')
+
+    async function handleSumbit(event){
+    event.preventDefault() 
+    const form = new FormData(this)
+    const response = await fetch(this.action, {
+      method: this.method,
+      body: form,
+      headers: {
+        'Accept': 'application/json'
+      }
+    } )
+    if (response.ok){
+      this.reset()
+      alert('Gracias por tu mensaje, te contactaremos a la brevedad')
+    }
+  }
+</script>
   
